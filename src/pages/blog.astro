@@ -1,16 +1,30 @@
-<body>
-  <a href="/">Home</a>
-  <a href="/about/">About</a>
-  <a href="/blog/">Blog</a>
-  
-  <h1>Blog</h1>
+---
+import '../styles/global.css';
 
-  <p>
-    I am working through Astro's introductory tutorial. This is the third page
-    of the tutorial, and I am learning how to create a blog.
+const pageTitle = "Blog";
+---
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <a href="/">Home</a>
+    <a href="/about/">About</a>
+    <a href="/blog/">Blog</a>
+
+    <h1>Blog</h1>
+
     <p>
-      This site will update as I complete more of the tutorial, so keep checking
-      back and see how my journey is going!
+      I am working through Astro's introductory tutorial. This is the third page
+      of the tutorial, and I am learning how to create a blog.
+      <p>
+        This site will update as I complete more of the tutorial, so keep
+        checking back and see how my journey is going!
+      </p>
     </p>
-  </p>
-</body>
+  </body>
+</html>
